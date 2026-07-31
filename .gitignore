@@ -1,0 +1,27 @@
+# Restricted patient data — keep local only
+data/
+datasets/
+*.csv
+
+# Run outputs
+results/
+checkpoints/
+images/
+models/
+*.pkl
+*.pt
+*.joblib
+
+# Python / IDE
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+transplant_data_backup_*.csv
